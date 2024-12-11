@@ -1,19 +1,6 @@
 .App {
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +11,76 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.member-list {
+  background-color: #282c34;
+  min-height: 25vh;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items:stretch;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.member-buttons button {
+  background-color: #282c34; 
+  margin-left: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.member-list-item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+justify-content:space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+form {
+  background-color: #282c34;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+form input[type="text"]  {
+  background-color: #282c34; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+form select {
+  background-color: #282c34; 
+  display: flex;
+  min-width: 28vh;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+form button {
+  background-color: #282c34; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
